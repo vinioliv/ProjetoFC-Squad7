@@ -153,9 +153,11 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #0F1570;
   text-decoration: none;
   background-color: transparent;
+  display: flex;
+  align-items: center;
 }
 
 a:hover {
@@ -370,6 +372,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
+  color: #28389A;
 }
 
 h4, .h4 {
@@ -6469,7 +6472,8 @@ a.close.disabled {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-item-next:not(.carousel-item-left),

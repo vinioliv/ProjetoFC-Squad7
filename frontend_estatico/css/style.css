@@ -12,6 +12,12 @@ html,body{
     padding: 0;
 }
 
+.banner{
+    background-image: url(/img/Banner.png);
+
+}
+
+
 
 
 
@@ -22,7 +28,8 @@ html,body{
     background: #0F1570 ;
     position: absolute;
 	bottom: 0;
-    position: fixed;
+    
+    
 
 }
 .iconesRede img{
@@ -32,4 +39,5 @@ html,body{
 .text-footer{
     font-size: 12px;
 }
+
 
