@@ -18,7 +18,10 @@ html,body{
 }
 
 
-
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
 
 
 /* * Footer - Inicio  */
@@ -28,7 +31,7 @@ html,body{
     background: #0F1570 ;
     position: absolute;
 	bottom: 0;
-    
+    position: relative;
     
 
 }
